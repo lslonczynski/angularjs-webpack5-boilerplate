@@ -1,0 +1,32 @@
+{
+  "name": "angular1-webpack5-template",
+  "version": "1.0.0",
+  "description": "Angular1 Webpack5 Template",
+  "scripts": {
+    "build": "webpack --bail --progress --profile --config webpack.prod.config.js",
+    "start": "webpack-dev-server --progress --config webpack.dev.config.js"
+  },
+  "dependencies": {
+    "angular": "^1.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^1.6.2",
+    "null-loader": "^0.1.1",
+    "postcss-loader": "^7.0.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.21.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
