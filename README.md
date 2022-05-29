@@ -9,7 +9,7 @@ Simple boilerplate code for angularjs app built with webpack 5.x and served with
 $ git clone https://github.com/lslonczynski/angularjs-webpack5-boilerplate.git
 
 # change directory to your app
-$ cd ng1-webpack5-boilerplate
+$ cd angularjs-webpack5-boilerplate
 
 # install the dependencies with npm
 $ npm install
